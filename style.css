@@ -53,9 +53,9 @@ body {
 
 .container {
     display: grid;
-    width: 96%;
+    width: 95%;
     margin: 0 auto;
-    gap: 2rem;
+    gap: 1.6rem;
     grid-template-columns: 14rem auto 23rem;
 }
 
@@ -517,16 +517,14 @@ main .recent-orders a {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .container {
         width: 94%;
         grid-template-columns: 7rem auto 23rem;
+        gap: 1.6rem;
     }
-
-    aside .logo h2 {
-        display: none;
-    }
-
+    
+    aside .logo h2,
     aside .sidebar h3 {
         display: none;
     }
