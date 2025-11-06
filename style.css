@@ -465,7 +465,7 @@ main .recent-orders a {
     background: var(--color-white);
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.4rem;
     margin-bottom: 1rem;
     padding: 1.4rem var(--card-padding);
     border-radius: var(--border-radius-3);
